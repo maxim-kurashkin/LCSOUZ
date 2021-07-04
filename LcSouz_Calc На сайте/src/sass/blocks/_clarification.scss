@@ -1,0 +1,63 @@
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: #D8D8D8;
+    margin-left: 5px;
+    margin-top: 2px;
+    text-align: center;
+    transition: 0.6s all;
+    cursor: pointer;
+    &__blue{
+        color: $black;
+        width: 28px;
+        height: 28px;
+        background-color: #d8d8d8;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 2px;
+        text-align: center;
+        transition: .6s all;
+        cursor: pointer;
+    }
+}
+
+.bdescr{
+    display: none;
+    margin-left: -100px;
+    padding: 7px;
+    margin-top: -205px;
+    background: rgba(94, 167, 220, .95);
+    height:200px;
+    width: 200px;
+    text-align: center;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    transition: 0.6s all;
+}
+
+.bdescrb{
+    font-size: 15px;
+    font-weight: 500;
+    color: $black;
+    display: none;
+    margin-left: -200px;
+    padding: 7px;
+    margin-top: -160px;
+    background: rgba(94,167,220,.95);
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    transition: .6s all;
+}
+
+.box:hover ~ .bdescr{
+    transition: 0.6s all;
+    display:block;
+}
+
+.box__blue:hover ~ .bdescrb{
+    transition: 0.6s all;
+    display:block;
+}

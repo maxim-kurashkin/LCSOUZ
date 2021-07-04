@@ -1,0 +1,108 @@
+.main{
+    background-color: $white;
+    height: 900px;
+}
+.hamburger{
+    display: none;
+}
+.header{
+    height: 100px;
+    background-color: $blue;
+    border-bottom: 1px solid #ffffff;
+}
+
+.container__pr{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    &__name{
+        height: 58px;
+        width: 306px;
+    }
+    &__logo{
+        margin-left: 80px;
+        height: 50px;
+        width: 50px;
+    }
+    &__contacts{
+        text-decoration: none;
+    }
+    &__phone{
+        margin-right: 27px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: $black;
+        transition: 0.5s;
+        &:hover{
+            text-decoration: none;
+            color: $yellow;
+        }
+    }
+    &__link{
+        padding:  5px 27px 5px 27px;
+        color: $black;
+        background: none;
+        width: 200px;
+        height: 32px;
+        border: 1px solid $black;
+        box-sizing: border-box;
+        transition: 0.5s;
+        font-family: Bitter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        &:hover{
+            text-decoration: none;
+            color: $yellow;
+            border: solid $yellow 1px;
+        }
+    }
+}
+
+.headermenu{
+    height: 68px;
+    background-color: $blue;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    margin: 0;
+    padding: 21px 200px 18px 200px;
+    &__wrapper{
+        display: none;
+    }
+    &__link{
+        font-family: Bitter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: $black;
+        transition: 0.5s;
+        &:hover{
+            text-decoration: none;
+            color: $yellow;
+        }
+    }
+    &__item{
+        list-style-type: none;
+        &__hide{
+            display: none;
+        }
+    }
+}
+
+
+
+

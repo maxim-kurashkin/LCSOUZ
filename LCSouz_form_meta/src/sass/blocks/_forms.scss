@@ -1,0 +1,77 @@
+.feed-form{
+    margin-top: 40px;
+}
+
+.consultation{
+    &__header{
+        text-align: center;
+        font-family: Bitter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        color: $black;
+    }
+    &__wrapper{
+        margin: 0 auto;
+        height: 315px;
+        width: 1060px;
+        display: flex;
+        flex-direction: column;
+        &__row{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+    }
+    &__input{
+        margin-right: 80px;
+        width: 300px;
+        height: 74px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-left: 20px;
+        &:nth-child(3){
+            margin-right: 0;
+        }
+        &__wide{
+            margin-top: 41px;
+            width: 1060px;
+            height: 200px;
+            border: 2px solid #000000;
+            box-sizing: border-box;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-bottom: 165px;
+        }
+    }
+    &__descr{
+        margin: 20px auto;
+        width: 761px;
+        height: 42px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #707070;
+    }
+}
+
+.submit{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 10px auto;
+    width: 300px;
+    height: 74px;
+    background: #5EA7DC;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

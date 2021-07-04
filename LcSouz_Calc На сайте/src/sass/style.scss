@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/color';
+
+*{
+    font-family: 'Bitter', serif;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+@import 'blocks/main';
+@import 'blocks/calculator';
+@import 'blocks/clarification';
+@import 'blocks/result';
+@import 'blocks/iconfonts';
+
+
+@import 'base/media.scss';
