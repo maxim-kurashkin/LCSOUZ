@@ -1,0 +1,37 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    &_title{
+        text-align: center;
+        font-size: 60px;
+    }
+}
+.return{
+    padding-top: 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: Bitter;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 60px;
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    font-size: 35px;
+    color: $blue;
+    border: 4px $blue solid;
+    text-decoration: none;
+    outline: none;
+    &:active{
+        text-decoration: none;
+        color: $yellow;
+        border: solid $yellow 4px;
+    }
+    &:hover{
+        text-decoration: none;
+        color: $yellow;
+        border: solid $yellow 4px;
+    }
+}

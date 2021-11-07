@@ -112,8 +112,6 @@ function calcResults() {
     } 
 
 
-
-
     switch (activeElement) {
         case 0: //Легковой
             // 12 Месяцев

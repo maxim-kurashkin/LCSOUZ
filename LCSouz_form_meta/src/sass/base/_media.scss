@@ -32,7 +32,7 @@
             width: 180px;
             height: 27px;
             font-size: 14px;
-            padding: 2px 0 2px 22px;
+            padding: 2px 0 2px 32px;
             &:hover{
                 color: $yellow;
                 border: solid $yellow 1px;
@@ -149,6 +149,7 @@
             width: 140px;
             height: 22px;
             font-size: 12px;
+            padding: 2px 0 2px 22px;
         }
     }
     .menu{
@@ -231,6 +232,11 @@
             font-size: 28px;
             margin-right: 0;
             color: $white;
+        }
+        //404
+        .return{
+            width: 700px;
+            margin-bottom: 200px;
         }
 }
 
@@ -330,6 +336,18 @@
         margin-right: 0;
         color: $white;
         margin-top: 15px;
+    }
+    //404
+    .page{
+        &_title{
+            font-size: 45px;
+        }
+    }
+    .return{
+        width: 500px;
+        margin-bottom: 200px;
+        padding-top: 5px;
+        font-size: 30px;
     }
 }
 
@@ -607,5 +625,17 @@
         &__req{
             font-size: 14px;
         }
+    }
+    //404
+    .page{
+        margin-top: 50px;
+        &_title{
+            font-size: 32px;
+        }
+    }
+    .return{
+        width: 300px;
+        margin-bottom: 200px;
+        font-size: 19px;
     }
 }
